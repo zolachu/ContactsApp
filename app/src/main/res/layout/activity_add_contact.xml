@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".AddContact">
+
+
+  <TextView
+      android:id="@+id/tvContactsApp"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_marginTop="40dp"
+      android:gravity="center_horizontal"
+      android:text=" Contacts App"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:id="@+id/ivFace"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="20dp"
+      android:src="@drawable/smile" />
+
+  <ImageView
+      android:id="@+id/ivCall"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="20dp"
+      android:src="@drawable/phone"
+      android:clickable="true"/>
+
+  <ImageView
+      android:id="@+id/ivWeb"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="20dp"
+      android:src="@drawable/website"
+      android:clickable="true"/>
+
+  <ImageView
+      android:id="@+id/ivLocate"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="20dp"
+      android:src="@drawable/location"
+      android:clickable="true"/>
+
+  <Button
+      android:id="@+id/btnCreate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginRight="20dp"
+      android:text="Create New Contact" />
+
+  <TextView
+      android:id="@+id/tvResults"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal" />
+</LinearLayout>
